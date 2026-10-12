@@ -1,0 +1,13 @@
+@mixin op {
+    color: $light;
+    opacity: 0.8;
+    &:hover{
+        opacity: 1;
+    }
+}
+@mixin light-hover {
+    &:hover {
+        background-color: rgb(211, 211, 211) !important;
+        color: $dark !important;
+      }
+}
