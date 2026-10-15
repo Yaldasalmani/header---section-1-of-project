@@ -1,122 +1,225 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>W3.CSS</title>
-    <link rel="stylesheet" href="style/style.css" />
-    <link
-      rel="stylesheet"
-      href="node_modules/bootstrap/dist/css/bootstrap.css"
-    />
-    <link
-      rel="stylesheet"
-      href="node_modules/bootstrap-icons/font/bootstrap-icons.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css?family=Poppins"
-    />
-  </head>
 
-  <body>
-    <header class="position-relative">
-      <figure>
-        <img src="images/app.jpg" alt="photo" class="img-fluid w-100 mt-4 m-md-0" />
-      </figure>
-      <div
-        id="takephohtobaner"
-        class="text-center position-absolute d-none d-md-block"
-      >
-        <h3>Take photos with our app</h3>
-        <hr />
-        <p>Super simple installation: free of charge</p>
-        <a href="#">
-          Download
-          <i class="bi bi-android2"></i>
-          <i class="bi bi-apple"></i>
-          <i class="bi bi-windows"></i
-        ></a>
-      </div>
-      <div class="">
-        <a
-          href="#"
-          class="text-light d-block d-md-none text-decoration-none text-center p-2 position-absolute top-0 w-100" id="download-md">
-          Download
-          <i class="bi bi-android2"></i>
-          <i class="bi bi-apple"></i>
-          <i class="bi bi-windows"></i
-        ></a>
-      </div>
-      <div id="taketour" class="d-none d-md-block">
-        <span>Take Tour ></span>
-      </div>
-      <div ><a href="#" class="text-light bg-black text-decoration-none p-1 d-block d-md-none text-center position-absolute w-100" id="take-tour-sm">Take Tour ></a></div>
-    </header>
-    <main>
-      <section class="container-fluid" id="buy-section">
-        <div class="d-md-flex justify-content-between">
-          <div class="" id="buy-info">
-            <h1>The App</h1>
-            <h2>Why buy it?</h2>
-            <p>
-              <span> Take photos like a pro.</span> You should buy this app
-              because lorem ipsum consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-              minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
-            </p>
-            <a href="#" class="d-none d-md-inline">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-download"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"
-                />
-                <path
-                  d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"
-                />
-              </svg>
-              Download Application
-            </a>
-            <span class="" id="Availble-icon"
-              >Available for<i class="bi bi-android2 text-success"></i>
-              <i class="bi bi-apple"></i>
-              <i class="bi bi-windows text-primary"></i
-            ></span>
-          </div>
-          <div class="">
-            <a href="#" class="d-block d-md-none mb-4">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-download"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5"
-                />
-                <path
-                  d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z"
-                />
-              </svg>
-              Download Application
-            </a>
-          </div>
-          <div class="">
-            <img class="img-fluid" src="images/img_app.jpg" alt="" />
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>W3.CSS</title>
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
+</head>
+
+<body>
+  <header class="position-relative">
+    <figure>
+      <img src="images/app.jpg" alt="photo" class="img-fluid w-100 mt-4 m-md-0" />
+    </figure>
+    <div id="takephohtobaner" class="text-center position-absolute d-none d-md-block">
+      <h3>Take photos with our app</h3>
+      <hr />
+      <p>Super simple installation: free of charge</p>
+      <a href="#">
+        Download
+        <i class="bi bi-android2"></i>
+        <i class="bi bi-apple"></i>
+        <i class="bi bi-windows"></i></a>
+    </div>
+    <div class="">
+      <a href="#"
+        class="text-light d-block d-md-none text-decoration-none text-center p-2 position-absolute top-0 w-100"
+        id="download-md">
+        Download
+        <i class="bi bi-android2"></i>
+        <i class="bi bi-apple"></i>
+        <i class="bi bi-windows"></i></a>
+    </div>
+    <div id="taketour" class="d-none d-md-block">
+      <span>Take Tour ></span>
+    </div>
+    <div><a href="#"
+        class="text-light bg-black text-decoration-none p-1 d-block d-md-none text-center position-absolute w-100"
+        id="take-tour-sm">Take Tour ></a></div>
+  </header>
+  <main class="container-fluid">
+    <section id="buy-section">
+      <div class="d-md-flex justify-content-between">
+        <div class="" id="buy-info">
+          <h1>The App</h1>
+          <h2>Why buy it?</h2>
+          <p>
+            <span> Take photos like a pro.</span> You should buy this app
+            because lorem ipsum consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat
+            nulla pariatur.
+          </p>
+          <a href="#" class="d-none d-md-inline">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download"
+              viewBox="0 0 16 16">
+              <path
+                d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5" />
+              <path
+                d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z" />
+            </svg>
+            Download Application
+          </a>
+          <span class="" id="Availble-icon">Available for<i class="bi bi-android2 text-success"></i>
+            <i class="bi bi-apple"></i>
+            <i class="bi bi-windows text-primary"></i></span>
         </div>
-      </section>
-    </main>
-  </body>
+        <div class="">
+          <a href="#" class="d-block d-md-none mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-download"
+              viewBox="0 0 16 16">
+              <path
+                d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5" />
+              <path
+                d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z" />
+            </svg>
+            Download Application
+          </a>
+        </div>
+        <div class="">
+          <img class="img-fluid" src="images/img_app.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- yalda -->
+    <section id="clarity" class="row d-flex  align-items-center">
+      <figure class="col-md-4  d-none  d-md-block">
+        <img src="images/img_clarity.jpg" alt="" class=" img-fluid ">
+      </figure>
+      <article class="col-md-8">
+        <h1>
+          <b>Clarity</b>
+        </h1>
+        <h2>Pixels, who?
+        </h2>
+        <p><span>A revolution in resolution.</span> Sharp and clear photos with the world's best photo engine,
+          incididunt ut
+          labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur.</p>
+      </article>
+    </section>
+  </main>
+  <section id="Features">
+    <article>
+      <h1><b>Features</b></h1>
+      <p>This app is just so lorem ipsum.</p>
+    </article>
+    <div class="icons">
+      <div class="item">
+        <i class="fa fa-bolt orange"></i>
+        <p>Fast</p>
+      </div>
+
+      <div class="item">
+        <i class="fa fa-heart red "></i>
+        <p>Loved</p>
+      </div>
+
+      <div class="item">
+        <i class="fa fa-camera yellow "></i>
+        <p>Clarity</p>
+      </div>
+
+      <div class="item">
+        <i class="fa fa-battery-full green "></i>
+        <p>Power</p>
+      </div>
+
+      <div class="item">
+        <i class="fa-regular fa-gem  white"></i>
+        <p>Sharp</p>
+      </div>
+
+      <div class="item">
+        <i class="fa fa-cloud blue "></i>
+        <p>Cloud</p>
+      </div>
+
+      <div class="item">
+        <i class="fa-solid fa-earth-americas gold"></i>
+        <p>Global</p>
+      </div>
+
+      <div class="item">
+        <i class="fa-solid fa-box  cyan"></i>
+        <p>Storage</p>
+      </div>
+
+      <div class="item">
+        <i class="fa fa-user sand"></i>
+        <p>Safe</p>
+      </div>
+
+      <div class="item">
+        <i class="fa fa-shield  orange "></i>
+        <p>Stable</p>
+      </div>
+
+      <div class="item">
+        <i class="fa fa-wifi grey "></i>
+        <p>Connected</p>
+      </div>
+
+      <div class="item">
+        <i class="fa fa-image pink "></i>
+        <p>HD</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="Pricing-text">
+    <div>
+      <h1><b>Pricing</b></h1>
+      <p>Choose a pricing plan that fits your needs.</p>
+    </div>
+  </section>
+
+
+  <article id="Pricing" class="row">
+    <ul class="col-md p-0 m-0">
+      <li id="Basic">Basic</li>
+      <li class="lis"><b>250</b> Photos</li>
+      <li class="lis"><b>10</b> Features</li>
+      <li class="lis"><b>No</b> Ads</li>
+      <li class="lis"><b>Office hours</b> Support</li>
+      <li class="li-h2     text-muted">
+        <h2>$ 25</h2>
+      </li>
+      <li class="li-a"><a href="" class="a-downlod"><i class="fa-solid fa-download"></i>Download</a></li>
+
+    </ul>
+    <ul class="col-md p-0 m-0">
+      <li id="Premium">Premium</li>
+      <li class="lis"><b>1000</b> Photos</li>
+      <li class="lis"><b>50</b> Features</li>
+      <li class="lis"><b>No</b> Ads</li>
+      <li class="lis"><b>Endless</b> Support</li>
+      <li class="li-h2     text-muted">
+        <h2>$ 99</h2>
+      </li>
+      <li class="li-a"><a href="" class="a-downlod"><i class="fa-solid fa-download"></i>Download</a></li>
+    </ul>
+  </article>
+  <footer>
+    <i class="fa-brands fa-square-facebook"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-square-snapchat"></i>
+    <i class="fa-brands fa-pinterest-p"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-linkedin-in"></i>
+    <p>Powered by <a href="">w3.css</a></p>
+  </footer>
+</body>
+
 </html>

@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+ 
 }
 
 #takephohtobaner {
@@ -46,14 +47,17 @@
     @include light-hover;
   }
 }
+
 #download-md {
   background-color: rgb(92, 174, 82);
   @include light-hover;
 }
-#take-tour-sm{
-    bottom: -30px;
-    @include light-hover;
+
+#take-tour-sm {
+  bottom: -30px;
+  @include light-hover;
 }
+
 #taketour {
   span {
     background-color: $dark;
@@ -67,42 +71,51 @@
     @include light-hover;
   }
 }
+
 main {
   section {
     padding-top: 45px;
+
     #buy-info {
       padding-top: 10px;
       padding-left: 20px;
       width: 60%;
+
       h1 {
         font-size: 65px;
         font-weight: bold;
       }
+
       h2 {
         font-size: 48px;
         font-weight: bold;
         color: rgb(82, 168, 82);
         padding-top: 20px;
       }
+
       p {
         padding-top: 20px;
         padding-bottom: 25px;
+
         span {
           font-size: 25px;
           font-weight: 500;
         }
       }
     }
+
     a {
       font-weight: 500;
       color: $dark;
       text-decoration: none;
       padding: 13px 15px;
       background-color: rgb(235, 235, 235);
+
       &:hover {
         background-color: rgb(196, 195, 195);
       }
     }
+
     #Availble-icon {
       display: block;
       display: flex;
@@ -110,10 +123,249 @@ main {
       gap: 4px;
       padding-top: 40px;
       padding-bottom: 40px;
+
       i {
         font-size: 20px;
       }
     }
+  }
+
+  // yalda
+  #clarity {
+
+    background-color: $bg-gray;
+    padding-top: 60px;
+    gap: 20px;
+    padding-bottom: 40px;
+
+    figure {
+      padding: 0;
+
+      img {
+        border-radius: 10px;
+        max-width: 100%;
+
+
+      }
+    }
+
+    article {
+      flex: 1;
+      padding-top: 30px;
+
+      h1 {
+        b {
+          color: $dark;
+          font-size: 65px;
+        }
+      }
+    }
+
+    h2 {
+      font-size: 50px;
+      color: $text-red;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
+    p {
+      color: $dark;
+      font-size: 16px;
+
+      span {
+        font-size: 23px;
+      }
+
+    }
+  }
+}
+
+#Features {
+  background-color: $bg-silver;
+  text-align: center;
+  color: $text-white;
+  padding-bottom: 20px;
+  article {
+    // text-align: center;
+    h1 {
+      padding-top: 90px;
+      padding-bottom: 20px;
+      font-size: 65px;
+    }
+  }
+
+  .icons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(140px, 1fr));
+    padding-bottom: 30px;
+    margin-top: 64px;
+    text-align: center;
+    gap: 48px 16px ;
+  }
+
+  .item {
+    // display: inline-block;
+    // width: 12%;
+    // margin-bottom: 0px;
+    text-align: center;
+    p{
+      padding-top: 12px;
+    }
+  }
+  i{
+    
+      font-size: 65px;
+    
+  }
+  .orange{color: $orange;}
+  .red{color:$red;}
+  .yellow{color:$yellow ;}
+  .green{color: $green;}
+  .blue{color: $blue;}
+  .gold{color: $gold;}
+  .cyan{color: $cyan;}
+  .sand{color: $sand;}
+  .grey{color: $grey;}
+  .pink{color: $pink;}
+}
+
+// @media (max-width: 1100px) {
+// .icons{ grid-template-columns: repeat(5, 1fr);
+// }}
+// @media (max-width: 900px) {
+// .icons{ grid-template-columns: repeat(4, 1fr);
+// }
+//   }
+//   @media (max-width: 760px) {
+// .icons{ grid-template-columns: repeat(3, 1fr);
+// }}
+  
+
+
+// @media (min-width:992px) {
+//   .item{
+//     width: 12.5%;
+//     flex: 0 0 12.5%;
+//   }
+// }
+#Pricing-text {
+padding-top: 80px;
+  color: $dark;
+  text-align: center;
+
+  h1 {
+    font-size: 65px;
+    padding-bottom: 20px;
+  }
+
+  p {
+    font-size: 18px;
+    padding-bottom: 55px;
+  }
+}
+
+#Pricing {
+  margin: 0px;
+  // display: flex;
+  gap: 15px;
+  margin-bottom: 100px;
+
+  ul {
+    color: $dark;
+    text-align: center;
+    list-style: none;
+
+    box-shadow: 0.5px 0.5px 5px rgb(189, 189, 189);
+
+  }
+  ul:hover{
+     box-shadow: 1px 1px 15px rgb(168, 168, 168);
+  }
+
+  li {
+
+  }
+
+}
+
+#Basic {
+ 
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: $bg-silver;
+  font-size: 24px;
+  color: $text-white;
+}
+
+#Premium {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: $bg-red;
+  font-size: 24px;
+  color: $text-white;
+
+}
+
+.lis {
+  padding-top: 15px;
+  padding-bottom: 15px;
+      border: 0.5px solid rgb(228, 228, 228);
+
+}
+
+.li-h2 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+      border: 0.5px solid rgb(228, 228, 228);
+
+}
+
+.li-a {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  background-color: $bg-gray;
+      border: 0.5px solid rgb(228, 228, 228);
+
+}
+
+.a-downlod {
+  background-color: $dark;
+  padding: 12px 24px;
+  color: $text-white;
+  text-decoration: none;
+}
+
+.a-downlod:hover {
+  background-color: #ccc;
+  color: $dark;
+}
+
+footer {
+
+  color: $dark;
+  background-color: $bg-gray;
+  text-align: center;
+overflow: hidden;
+
+  i {
+    padding-top: 50px;
+    font-size: 23px;
+    padding-bottom: 30px;
+  }
+  i:hover{
+    color: $grey;
+  }
+
+  p {
+    padding-bottom: 20px;
+
+    a {
+      color: black;
+    }
+  }
+
+  a:hover {
+    color: #008a00;
   }
 }
 
@@ -121,8 +373,11 @@ main {
   #buy-section {
     text-align: center;
   }
+
   #buy-info {
     width: 100% !important;
     text-align: start;
   }
 }
+
+// yalda
