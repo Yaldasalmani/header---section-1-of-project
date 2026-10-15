@@ -1,9 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Poppins", sans-serif;
-}
-
 #takephohtobaner {
   background-color: black;
   opacity: 0.6;
@@ -13,33 +7,39 @@
   left: 10px;
   top: 40%;
 }
+
 #takephohtobaner:hover {
   opacity: 1;
 }
+
 #takephohtobaner h3 {
   color: white;
   opacity: 0.8;
+  font-size: 25px;
 }
+
 #takephohtobaner h3:hover {
   opacity: 1;
 }
-#takephohtobaner h3 {
-  font-size: 25px;
-}
+
 #takephohtobaner hr {
   color: white;
   opacity: 0.8;
 }
+
 #takephohtobaner hr:hover {
   opacity: 1;
 }
+
 #takephohtobaner p {
   color: white;
   opacity: 0.8;
 }
+
 #takephohtobaner p:hover {
   opacity: 1;
 }
+
 #takephohtobaner a {
   display: block;
   text-decoration: none;
@@ -51,24 +51,27 @@
   width: 100%;
   border: white solid 2px;
 }
+
 #takephohtobaner a:hover {
-  background-color: rgb(211, 211, 211) !important;
+  background-color: lightgray !important;
   color: black !important;
 }
 
 #download-md {
-  background-color: rgb(92, 174, 82);
+  background-color: #5cae52;
 }
+
 #download-md:hover {
-  background-color: rgb(211, 211, 211) !important;
+  background-color: lightgray !important;
   color: black !important;
 }
 
 #take-tour-sm {
   bottom: -30px;
 }
+
 #take-tour-sm:hover {
-  background-color: rgb(211, 211, 211) !important;
+  background-color: lightgray !important;
   color: black !important;
 }
 
@@ -82,91 +85,121 @@
   right: 15px;
   top: 48%;
 }
+
 #taketour span:hover {
-  background-color: rgb(211, 211, 211) !important;
+  background-color: lightgray !important;
   color: black !important;
 }
 
 main section {
   padding-top: 45px;
 }
+
 main section #buy-info {
   padding-top: 10px;
   padding-left: 20px;
   width: 60%;
 }
+
 main section #buy-info h1 {
   font-size: 65px;
   font-weight: bold;
 }
+
 main section #buy-info h2 {
   font-size: 48px;
   font-weight: bold;
-  color: rgb(82, 168, 82);
+  color: #52a852;
   padding-top: 20px;
 }
+
 main section #buy-info p {
   padding-top: 20px;
   padding-bottom: 25px;
 }
+
 main section #buy-info p span {
   font-size: 25px;
   font-weight: 500;
 }
+
 main section a {
   font-weight: 500;
   color: black;
   text-decoration: none;
   padding: 13px 15px;
-  background-color: rgb(235, 235, 235);
+  background-color: #ebebeb;
 }
+
 main section a:hover {
-  background-color: rgb(196, 195, 195);
+  background-color: #c4c3c3;
 }
+
 main section #Availble-icon {
   display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 4px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
 main section #Availble-icon i {
   font-size: 20px;
 }
-main #clarity {
+
+#clarity {
   background-color: #f1f1f1;
   padding-top: 60px;
   gap: 20px;
   padding-bottom: 40px;
 }
-main #clarity figure {
+
+#clarity figure {
   padding: 0;
 }
-main #clarity figure img {
+
+#clarity figure img {
   border-radius: 10px;
   max-width: 100%;
 }
-main #clarity article {
-  flex: 1;
+
+#clarity article {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   padding-top: 30px;
 }
-main #clarity article h1 b {
+
+#clarity article h1 b {
   color: black;
   font-size: 65px;
 }
-main #clarity h2 {
+
+#clarity h2 {
   font-size: 50px;
   color: #f44336;
   padding-top: 20px;
   padding-bottom: 20px;
 }
-main #clarity p {
+
+#clarity p {
   color: black;
   font-size: 16px;
 }
-main #clarity p span {
+
+#clarity p span {
   font-size: 23px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 #Features {
@@ -175,55 +208,72 @@ main #clarity p span {
   color: #ffffff;
   padding-bottom: 20px;
 }
+
 #Features article h1 {
   padding-top: 90px;
   padding-bottom: 20px;
   font-size: 65px;
 }
+
 #Features .icons {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  -ms-grid-columns: (minmax(140px, 2fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(140px, 2fr));
   padding-bottom: 30px;
   margin-top: 64px;
   text-align: center;
   gap: 48px 16px;
 }
+
 #Features .item {
   text-align: center;
 }
+
 #Features .item p {
   padding-top: 12px;
 }
+
 #Features i {
   font-size: 65px;
 }
+
 #Features .orange {
   color: #ff9800;
 }
+
 #Features .red {
   color: #f44336;
 }
+
 #Features .yellow {
   color: #d2be0e;
 }
+
 #Features .green {
   color: #4CAF50;
 }
+
 #Features .blue {
   color: #2196F3;
 }
+
 #Features .gold {
   color: #ffc107;
 }
+
 #Features .cyan {
   color: #00bcd4;
 }
+
 #Features .sand {
   color: #fdf5e6;
 }
+
 #Features .grey {
   color: #757575;
 }
+
 #Features .pink {
   color: #e91e63;
 }
@@ -233,10 +283,12 @@ main #clarity p span {
   color: black;
   text-align: center;
 }
+
 #Pricing-text h1 {
   font-size: 65px;
   padding-bottom: 20px;
 }
+
 #Pricing-text p {
   font-size: 18px;
   padding-bottom: 55px;
@@ -247,15 +299,20 @@ main #clarity p span {
   gap: 15px;
   margin-bottom: 100px;
 }
+
 #Pricing ul {
   color: black;
   text-align: center;
   list-style: none;
-  box-shadow: 0.5px 0.5px 5px rgb(189, 189, 189);
+  -webkit-box-shadow: 0.5px 0.5px 5px #bdbdbd;
+          box-shadow: 0.5px 0.5px 5px #bdbdbd;
 }
+
 #Pricing ul:hover {
-  box-shadow: 1px 1px 15px rgb(168, 168, 168);
+  -webkit-box-shadow: 1px 1px 15px #a8a8a8;
+          box-shadow: 1px 1px 15px #a8a8a8;
 }
+
 #Basic {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -275,20 +332,20 @@ main #clarity p span {
 .lis {
   padding-top: 15px;
   padding-bottom: 15px;
-  border: 0.5px solid rgb(228, 228, 228);
+  border: 0.5px solid #e4e4e4;
 }
 
 .li-h2 {
   padding-top: 25px;
   padding-bottom: 25px;
-  border: 0.5px solid rgb(228, 228, 228);
+  border: 0.5px solid #e4e4e4;
 }
 
 .li-a {
   padding-top: 35px;
   padding-bottom: 35px;
   background-color: #f1f1f1;
-  border: 0.5px solid rgb(228, 228, 228);
+  border: 0.5px solid #e4e4e4;
 }
 
 .a-downlod {
@@ -309,20 +366,25 @@ footer {
   text-align: center;
   overflow: hidden;
 }
+
 footer i {
   padding-top: 50px;
   font-size: 23px;
   padding-bottom: 30px;
 }
+
 footer i:hover {
   color: #757575;
 }
+
 footer p {
   padding-bottom: 20px;
 }
+
 footer p a {
   color: black;
 }
+
 footer a:hover {
   color: #008a00;
 }
@@ -335,4 +397,5 @@ footer a:hover {
     width: 100% !important;
     text-align: start;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+/*# sourceMappingURL=style.css.map */

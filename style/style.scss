@@ -1,5 +1,7 @@
-@import "vars";
-@import "mixin";
+@import 'base/vars';
+@import 'componets/slider';
+@import 'componets/app';
+@import 'componets/clarity';
 
 * {
   margin: 0;
@@ -8,177 +10,9 @@
  
 }
 
-#takephohtobaner {
-  background-color: black;
-  opacity: 0.6;
-  border-radius: 7px;
-  padding: 30px 20px;
-  width: 33%;
-  left: 10px;
-  top: 40%;
-
-  &:hover {
-    opacity: 1;
-  }
-
-  h3 {
-    @include op;
-    font-size: 25px;
-  }
-
-  hr {
-    @include op;
-  }
-
-  p {
-    @include op;
-  }
-
-  a {
-    display: block;
-    text-decoration: none;
-    border-radius: 5px;
-    padding: 7px;
-    width: 100%;
-    color: $light;
-    background-color: green;
-    width: 100%;
-    border: white solid 2px;
-    @include light-hover;
-  }
-}
-
-#download-md {
-  background-color: rgb(92, 174, 82);
-  @include light-hover;
-}
-
-#take-tour-sm {
-  bottom: -30px;
-  @include light-hover;
-}
-
-#taketour {
-  span {
-    background-color: $dark;
-    padding: 8px 17px;
-    cursor: pointer;
-    color: $light;
-    border-radius: 7px;
-    position: absolute;
-    right: 15px;
-    top: 48%;
-    @include light-hover;
-  }
-}
-
-main {
-  section {
-    padding-top: 45px;
-
-    #buy-info {
-      padding-top: 10px;
-      padding-left: 20px;
-      width: 60%;
-
-      h1 {
-        font-size: 65px;
-        font-weight: bold;
-      }
-
-      h2 {
-        font-size: 48px;
-        font-weight: bold;
-        color: rgb(82, 168, 82);
-        padding-top: 20px;
-      }
-
-      p {
-        padding-top: 20px;
-        padding-bottom: 25px;
-
-        span {
-          font-size: 25px;
-          font-weight: 500;
-        }
-      }
-    }
-
-    a {
-      font-weight: 500;
-      color: $dark;
-      text-decoration: none;
-      padding: 13px 15px;
-      background-color: rgb(235, 235, 235);
-
-      &:hover {
-        background-color: rgb(196, 195, 195);
-      }
-    }
-
-    #Availble-icon {
-      display: block;
-      display: flex;
-      align-items: center;
-      gap: 4px;
-      padding-top: 40px;
-      padding-bottom: 40px;
-
-      i {
-        font-size: 20px;
-      }
-    }
-  }
 
   // yalda
-  #clarity {
 
-    background-color: $bg-gray;
-    padding-top: 60px;
-    gap: 20px;
-    padding-bottom: 40px;
-
-    figure {
-      padding: 0;
-
-      img {
-        border-radius: 10px;
-        max-width: 100%;
-
-
-      }
-    }
-
-    article {
-      flex: 1;
-      padding-top: 30px;
-
-      h1 {
-        b {
-          color: $dark;
-          font-size: 65px;
-        }
-      }
-    }
-
-    h2 {
-      font-size: 50px;
-      color: $text-red;
-      padding-top: 20px;
-      padding-bottom: 20px;
-    }
-
-    p {
-      color: $dark;
-      font-size: 16px;
-
-      span {
-        font-size: 23px;
-      }
-
-    }
-  }
-}
 
 #Features {
   background-color: $bg-silver;
@@ -196,7 +30,7 @@ main {
 
   .icons {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(140px, 1fr));
+    grid-template-columns: repeat(auto-fit,minmax(140px, 2fr));
     padding-bottom: 30px;
     margin-top: 64px;
     text-align: center;

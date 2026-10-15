@@ -1,0 +1,66 @@
+@import '../base/vars';
+@import '../base/mixin'; 
+ 
+#takephohtobaner {
+  background-color: black;
+  opacity: 0.6;
+  border-radius: 7px;
+  padding: 30px 20px;
+  width: 33%;
+  left: 10px;
+  top: 40%;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  h3 {
+    @include op;
+    font-size: 25px;
+  }
+
+  hr {
+    @include op;
+  }
+
+  p {
+    @include op;
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 7px;
+    width: 100%;
+    color: $light;
+    background-color: green;
+    width: 100%;
+    border: white solid 2px;
+    @include light-hover;
+  }
+}
+
+#download-md {
+  background-color: rgb(92, 174, 82);
+  @include light-hover;
+}
+
+#take-tour-sm {
+  bottom: -30px;
+  @include light-hover;
+}
+
+#taketour {
+  span {
+    background-color: $dark;
+    padding: 8px 17px;
+    cursor: pointer;
+    color: $light;
+    border-radius: 7px;
+    position: absolute;
+    right: 15px;
+    top: 48%;
+    @include light-hover;
+  }
+}

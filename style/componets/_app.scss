@@ -1,0 +1,59 @@
+@import '../base/vars';
+main {
+  section {
+    padding-top: 45px;
+
+    #buy-info {
+      padding-top: 10px;
+      padding-left: 20px;
+      width: 60%;
+
+      h1 {
+        font-size: 65px;
+        font-weight: bold;
+      }
+
+      h2 {
+        font-size: 48px;
+        font-weight: bold;
+        color: rgb(82, 168, 82);
+        padding-top: 20px;
+      }
+
+      p {
+        padding-top: 20px;
+        padding-bottom: 25px;
+
+        span {
+          font-size: 25px;
+          font-weight: 500;
+        }
+      }
+    }
+
+    a {
+      font-weight: 500;
+      color: $dark;
+      text-decoration: none;
+      padding: 13px 15px;
+      background-color: rgb(235, 235, 235);
+
+      &:hover {
+        background-color: rgb(196, 195, 195);
+      }
+    }
+
+    #Availble-icon {
+      display: block;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+
+      i {
+        font-size: 20px;
+      }
+    }
+  }
+}
